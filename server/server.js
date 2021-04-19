@@ -6,7 +6,7 @@ const bodyParser=require('body-parser')
 require('dotenv').config()
 // import routes
 const postRoutes=require('./routes/post')
-
+let x=5;
 // app
 const app=express()
 
